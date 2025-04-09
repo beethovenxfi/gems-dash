@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Charts - Fetching Data from GitHub</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', { packages: ['corechart', 'line'] });
+
+      // Ensure the DOM is ready and Google Charts library is loaded
+      google.charts.setOnLoadCallback(function() {
+        // Call the drawChart function here, so it runs after the library is ready
+        drawChart();
+      });
+
+      function drawChart() {
+        var githubJsonUrl = 'https://raw.githubusercontent.com/beethovenxfi/gems-dash/refs/heads/main/data/sonic_data.json';
+
+        // Fetch data from GitHub
+        fetch(githubJsonUrl)
+          .then(response => response.json())
+          .then(jsonData => {
+            // Prepare a structure to store data by protocol
+            var protocolData = {};
+
+            // Convert JSON data to DataTable format
+            jsonData.forEach(function(row) {
+              row.data.forEach(function(protocol) {
+                // Ensure that `share` is a number, not a string
+                var share = parseFloat(protocol.share);
+                var timestamp = new Date(row.timestamp);
+                var protocolName = protocol.protocol;
+
+                // Initialize protocol data if not already
+                if (!protocolData[protocolName]) {
+                  protocolData[protocolName] = [];
+                }
+
+                // Add the timestamp and share percentage to the protocol's data
+                protocolData[protocolName].push([timestamp, share]);
+              });
+            });
+
+            // Prepare the DataTable
+            var data = new google.visualization.DataTable();
+            data.addColumn('datetime', 'Timestamp');
+
+            // Add columns for each protocol
+            var protocols = Object.keys(protocolData);
+            protocols.forEach(function(protocol) {
+              data.addColumn('number', protocol);
+            });
+
+            // Determine the unique timestamps
+            var timestamps = [];
+            protocols.forEach(function(protocol) {
+              protocolData[protocol].forEach(function(entry) {
+                if (!timestamps.some(t => t.getTime() === entry[0].getTime())) {
+                  timestamps.push(entry[0]);
+                }
+              });
+            });
+
+            // Add rows with the correct protocol share values
+            timestamps.forEach(function(timestamp) {
+              var row = [timestamp];
+              protocols.forEach(function(protocol) {
+                var shareEntry = protocolData[protocol].find(function(entry) {
+                  return entry[0].getTime() === timestamp.getTime();
+                });
+                row.push(shareEntry ? shareEntry[1] : null); // Use null if no data for that protocol at the timestamp
+              });
+              data.addRow(row);
+            });
+
+            // Set chart options
+            var options = {
+              title: 'Share Percentage Over Time by Protocol',
+              width: 900,
+              height: 500,
+              chartArea: { width: '80%', height: '70%' },
+              hAxis: {
+                title: 'Timestamp',
+                format: 'yyyy-MM-dd HH:mm:ss',
+                gridlines: { count: 10 }
+              },
+              vAxis: {
+                title: 'Share Percentage'
+              },
+              series: {
+                0: { curveType: 'function' },
+                1: { curveType: 'function' }
+              },
+              legend: { position: 'top' }
+            };
+
+            // Create the chart and draw it
+            var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+          })
+          .catch(error => console.error('Error fetching data from GitHub:', error));
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Protocol Share Percentage Over Time</h1>
+    <div id="chart_div"></div>
+  </body>
+</html>
