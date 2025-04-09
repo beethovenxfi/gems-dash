@@ -1,0 +1,38 @@
+name: Daily Data Fetcher
+
+on:
+    schedule:
+        - cron: '0 0 * * *' # Runs at midnight every day
+    workflow_dispatch: # Allows manual triggering
+
+jobs:
+    fetch-data:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '18' # Make sure you're using the right Node.js version
+
+            - name: Install dependencies
+              run: |
+                  npm install
+
+            - name: Run fetch script
+              run: |
+                  npx ts-node src/fetch.ts
+
+            - name: Commit and push new data (if updated)
+              run: |
+                  git config --global user.name "GitHub Actions"
+                  git config --global user.email "actions@github.com"
+                  git add data/sonic_data.json
+                  git commit -m "Update sonic data"
+                  git push
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Provides permissions to commit
+

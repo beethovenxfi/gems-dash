@@ -1,0 +1,15 @@
+{
+  "name": "gems-dash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "franz <franzns11@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.14.0",
+    "csv-stringify": "^6.5.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
