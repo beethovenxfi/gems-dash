@@ -50597,5 +50597,452 @@
         "share": 0.0001243890121586797
       }
     ]
+  },
+  {
+    "timestamp": "2025-08-09T01:18:31.067Z",
+    "totalGemScore": 284948180.3301544,
+    "data": [
+      {
+        "protocol": "Aave v3",
+        "category": "Lending",
+        "protocol_gem_score": 20647534.73642888,
+        "protocol_total_gems": 0,
+        "share": 7.246066534801406
+      },
+      {
+        "protocol": "Amped Finance",
+        "category": "Perp",
+        "protocol_gem_score": 126741.09365495546,
+        "protocol_total_gems": 0,
+        "share": 0.04447864643603172
+      },
+      {
+        "protocol": "Angles Protocol",
+        "category": "LST",
+        "protocol_gem_score": 419523.5086789554,
+        "protocol_total_gems": 0,
+        "share": 0.14722800061150615
+      },
+      {
+        "protocol": "Beefy Finance",
+        "category": "LST",
+        "protocol_gem_score": 1076.9619858905485,
+        "protocol_total_gems": 0,
+        "share": 0.0003779501187348273
+      },
+      {
+        "protocol": "Beefy Finance",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 93125.97569033368,
+        "protocol_total_gems": 0,
+        "share": 0.03268172324611216
+      },
+      {
+        "protocol": "Beefy Finance",
+        "category": "ALM",
+        "protocol_gem_score": 4213.171817123238,
+        "protocol_total_gems": 0,
+        "share": 0.0014785747402358063
+      },
+      {
+        "protocol": "Beets DEX",
+        "category": "Dex",
+        "protocol_gem_score": 34957065.40210432,
+        "protocol_total_gems": 0,
+        "share": 12.267867568622973
+      },
+      {
+        "protocol": "Beets LST",
+        "category": "LST",
+        "protocol_gem_score": 10045024.28082892,
+        "protocol_total_gems": 0,
+        "share": 3.5252108889378695
+      },
+      {
+        "protocol": "Brunch",
+        "category": "Lending",
+        "protocol_gem_score": 26.196942943531063,
+        "protocol_total_gems": 0,
+        "share": 0.000009193581413005707
+      },
+      {
+        "protocol": "CrossCurve",
+        "category": "Bridge",
+        "protocol_gem_score": 1056316.9401659523,
+        "protocol_total_gems": 0,
+        "share": 0.3707049256963331
+      },
+      {
+        "protocol": "Curve",
+        "category": "Dex",
+        "protocol_gem_score": 124.6104587427347,
+        "protocol_total_gems": 0,
+        "share": 0.00004373091928446609
+      },
+      {
+        "protocol": "Curve",
+        "category": "Lending",
+        "protocol_gem_score": 176.1337781251793,
+        "protocol_total_gems": 0,
+        "share": 0.00006181256462880458
+      },
+      {
+        "protocol": "DeFive",
+        "category": "Dex",
+        "protocol_gem_score": 353217.5814207341,
+        "protocol_total_gems": 0,
+        "share": 0.12395853204308219
+      },
+      {
+        "protocol": "Dtrinity",
+        "category": "Lending",
+        "protocol_gem_score": 11225.904908895329,
+        "protocol_total_gems": 0,
+        "share": 0.003939630320112402
+      },
+      {
+        "protocol": "Eggs Finance",
+        "category": "Lending",
+        "protocol_gem_score": 0,
+        "protocol_total_gems": 0,
+        "share": 0
+      },
+      {
+        "protocol": "Enclabs",
+        "category": "Lending",
+        "protocol_gem_score": 1675025.2217717546,
+        "protocol_total_gems": 0,
+        "share": 0.5878350301556554
+      },
+      {
+        "protocol": "Equalizer",
+        "category": "Dex",
+        "protocol_gem_score": 1161627.152786559,
+        "protocol_total_gems": 0,
+        "share": 0.4076625972626472
+      },
+      {
+        "protocol": "Equilibria",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 34088.50548506322,
+        "protocol_total_gems": 0,
+        "share": 0.011963054280805257
+      },
+      {
+        "protocol": "Estfor Kingdom",
+        "category": "Gaming",
+        "protocol_gem_score": 0,
+        "protocol_total_gems": 0,
+        "share": 0
+      },
+      {
+        "protocol": "Euler",
+        "category": "Lending",
+        "protocol_gem_score": 5255063.189221008,
+        "protocol_total_gems": 0,
+        "share": 1.8442171426159812
+      },
+      {
+        "protocol": "Gamma",
+        "category": "ALM",
+        "protocol_gem_score": 22127.132332688583,
+        "protocol_total_gems": 0,
+        "share": 0.007765317998188668
+      },
+      {
+        "protocol": "Lynx",
+        "category": "Perp",
+        "protocol_gem_score": 49595.20883010172,
+        "protocol_total_gems": 0,
+        "share": 0.017404992294612436
+      },
+      {
+        "protocol": "MachFi",
+        "category": "Lending",
+        "protocol_gem_score": 760785.5759037483,
+        "protocol_total_gems": 0,
+        "share": 0.26699085252001475
+      },
+      {
+        "protocol": "Magpie",
+        "category": "Dex Aggregator",
+        "protocol_gem_score": 0,
+        "protocol_total_gems": 0,
+        "share": 0
+      },
+      {
+        "protocol": "Margin Zero",
+        "category": "Perp",
+        "protocol_gem_score": 18041.56459530152,
+        "protocol_total_gems": 0,
+        "share": 0.0063315247615891804
+      },
+      {
+        "protocol": "Metropolis",
+        "category": "Dex",
+        "protocol_gem_score": 48915.75520946662,
+        "protocol_total_gems": 0,
+        "share": 0.017166544159990953
+      },
+      {
+        "protocol": "Napier Finance",
+        "category": "Yield Tokenisation",
+        "protocol_gem_score": 66474.00576191234,
+        "protocol_total_gems": 0,
+        "share": 0.023328454206969287
+      },
+      {
+        "protocol": "Navigator",
+        "category": "Perp",
+        "protocol_gem_score": 1193775.1671136955,
+        "protocol_total_gems": 0,
+        "share": 0.41894465363159406
+      },
+      {
+        "protocol": "Orderly",
+        "category": "Perp",
+        "protocol_gem_score": 3894.467695114962,
+        "protocol_total_gems": 0,
+        "share": 0.001366728396230728
+      },
+      {
+        "protocol": "Origin LST",
+        "category": "LST",
+        "protocol_gem_score": 1137450.220978449,
+        "protocol_total_gems": 0,
+        "share": 0.39917792058210216
+      },
+      {
+        "protocol": "Peapods Finance",
+        "category": "Index",
+        "protocol_gem_score": 7627.881968980733,
+        "protocol_total_gems": 0,
+        "share": 0.002676936543389296
+      },
+      {
+        "protocol": "Pendle",
+        "category": "Yield Tokenisation",
+        "protocol_gem_score": 8897919.597088473,
+        "protocol_total_gems": 0,
+        "share": 3.122644821517696
+      },
+      {
+        "protocol": "Penpie",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 50220.118740196696,
+        "protocol_total_gems": 0,
+        "share": 0.01762429880478945
+      },
+      {
+        "protocol": "Rings Protocol",
+        "category": "LST",
+        "protocol_gem_score": 153633.23373557176,
+        "protocol_total_gems": 0,
+        "share": 0.05391620102910117
+      },
+      {
+        "protocol": "Rings Protocol",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 674810.8712010257,
+        "protocol_total_gems": 0,
+        "share": 0.23681880348179726
+      },
+      {
+        "protocol": "Royco",
+        "category": "Launchpad",
+        "protocol_gem_score": 0,
+        "protocol_total_gems": 0,
+        "share": 0
+      },
+      {
+        "protocol": "Shadow Exchange",
+        "category": "Dex",
+        "protocol_gem_score": 36225769.99819013,
+        "protocol_total_gems": 0,
+        "share": 12.713108031157539
+      },
+      {
+        "protocol": "Silo Finance",
+        "category": "Lending",
+        "protocol_gem_score": 118797091.6601641,
+        "protocol_total_gems": 0,
+        "share": 41.69077041394691
+      },
+      {
+        "protocol": "Silverswap",
+        "category": "Dex",
+        "protocol_gem_score": 251622.2854167449,
+        "protocol_total_gems": 0,
+        "share": 0.08830457703755239
+      },
+      {
+        "protocol": "Snake Finance",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 1530.6957810783222,
+        "protocol_total_gems": 0,
+        "share": 0.0005371839115816728
+      },
+      {
+        "protocol": "Solidly",
+        "category": "Dex",
+        "protocol_gem_score": 23305.068385596845,
+        "protocol_total_gems": 0,
+        "share": 0.008178704057205943
+      },
+      {
+        "protocol": "Sonic Market",
+        "category": "Dex",
+        "protocol_gem_score": 3681.906114803041,
+        "protocol_total_gems": 0,
+        "share": 0.0012921318221920247
+      },
+      {
+        "protocol": "Spectra",
+        "category": "Yield Tokenisation",
+        "protocol_gem_score": 40982.784876785314,
+        "protocol_total_gems": 0,
+        "share": 0.014382539600463748
+      },
+      {
+        "protocol": "Spin IT",
+        "category": "GambleFi",
+        "protocol_gem_score": 1474.428049832844,
+        "protocol_total_gems": 0,
+        "share": 0.0005174372575829409
+      },
+      {
+        "protocol": "SpinDash",
+        "category": "GambleFi",
+        "protocol_gem_score": 0.01876279023734,
+        "protocol_total_gems": 0,
+        "share": 6.584632411268795e-9
+      },
+      {
+        "protocol": "Stability",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 18525845.08997741,
+        "protocol_total_gems": 0,
+        "share": 6.501478643770418
+      },
+      {
+        "protocol": "Stability",
+        "category": "Lending",
+        "protocol_gem_score": 16724.461596188994,
+        "protocol_total_gems": 0,
+        "share": 0.005869299314988165
+      },
+      {
+        "protocol": "Stable Jack",
+        "category": "Yield Tokenisation",
+        "protocol_gem_score": 331582.55106315564,
+        "protocol_total_gems": 0,
+        "share": 0.11636591280525757
+      },
+      {
+        "protocol": "Steer",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 665.091078310118,
+        "protocol_total_gems": 0,
+        "share": 0.00023340772962280793
+      },
+      {
+        "protocol": "Stryke",
+        "category": "Perp",
+        "protocol_gem_score": 70.61782713639812,
+        "protocol_total_gems": 0,
+        "share": 0.000024782691033358056
+      },
+      {
+        "protocol": "Summer.fi",
+        "category": "Dex",
+        "protocol_gem_score": 449871.3658172875,
+        "protocol_total_gems": 0,
+        "share": 0.157878308012371
+      },
+      {
+        "protocol": "SushiSwap",
+        "category": "Dex",
+        "protocol_gem_score": 1030.992745491272,
+        "protocol_total_gems": 0,
+        "share": 0.00036181762743552705
+      },
+      {
+        "protocol": "SwapX",
+        "category": "Dex",
+        "protocol_gem_score": 20914096.890557166,
+        "protocol_total_gems": 0,
+        "share": 7.339614124338365
+      },
+      {
+        "protocol": "Tokemak",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 15310.555723972864,
+        "protocol_total_gems": 0,
+        "share": 0.00537310177107758
+      },
+      {
+        "protocol": "Wagmi",
+        "category": "ALM",
+        "protocol_gem_score": 5512.658516106393,
+        "protocol_total_gems": 0,
+        "share": 0.001934617904813137
+      },
+      {
+        "protocol": "Wagmi",
+        "category": "Dex",
+        "protocol_gem_score": 146532.90627024192,
+        "protocol_total_gems": 0,
+        "share": 0.05142440499197502
+      },
+      {
+        "protocol": "WooFi",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 3421.100671834609,
+        "protocol_total_gems": 0,
+        "share": 0.0012006044986392823
+      },
+      {
+        "protocol": "XPRESS",
+        "category": "Dex",
+        "protocol_gem_score": 15972.791962326804,
+        "protocol_total_gems": 0,
+        "share": 0.0056055076203048474
+      },
+      {
+        "protocol": "Yel Finance",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 19622.572540450063,
+        "protocol_total_gems": 0,
+        "share": 0.006886365274456016
+      },
+      {
+        "protocol": "YieldFi",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 120568.37269735588,
+        "protocol_total_gems": 0,
+        "share": 0.04231238555644036
+      },
+      {
+        "protocol": "YieldLayer",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 44122.72195780534,
+        "protocol_total_gems": 0,
+        "share": 0.015484472266740806
+      },
+      {
+        "protocol": "ZyFAI",
+        "category": "Yield Aggregator",
+        "protocol_gem_score": 64950.53207958529,
+        "protocol_total_gems": 0,
+        "share": 0.02279380482596188
+      },
+      {
+        "protocol": "fMoney",
+        "category": "Lending",
+        "protocol_gem_score": 352.8420468813001,
+        "protocol_total_gems": 0,
+        "share": 0.00012382674157542634
+      }
+    ]
   }
 ]
